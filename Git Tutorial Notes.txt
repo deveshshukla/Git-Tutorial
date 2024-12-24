@@ -20,7 +20,8 @@ Send all files & changes from staging area to repo.
 
 -->To see all the commits done so far: [git log]
 -->To see less info log: [git log --oneline]
-jus check
+
+/// 51:10 last
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
