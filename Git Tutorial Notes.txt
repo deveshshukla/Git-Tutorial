@@ -1,22 +1,25 @@
-1. git status
+1. [git status]
 To check the status of a repository already git added or not.
 
-2. git init ---> Current folder is now 'Working Directory'
+2. [git init] ---> Current folder is now 'Working Directory'
 If not than this cmd add git on current directory
 
-3. git add
+3. [git add]
 Create Staging area means selected/all files are on stage.
-1. Selected: git add file1 file2
-2. All Files: git add .
+1. Selected Files: [git add file1 file2]
+2. All Files: [git add .]
 
--->To 'unstage' files: git rm --cached <fileName>
+-->To 'unstage' files: [git rm --cached <fileName>]
 
--->To 'update' changes in file: git add <fileName>
+-->To 'update' changes in file: [git add <fileName>]
 
--->To 'discard' changes in working directory: git restore <fileName>
+-->To 'discard' changes in working directory: [git restore <fileName>]
 
-4. git commit
+4. [git commit]
 Send all files & changes from staging area to repo.
 
-5. git push
+-->To see all the commits done so far: [git log]
+-->To see less info log: [git log --oneline]
+
+5. [git push]
 Push all the files on GitHub or any other chosen service.
