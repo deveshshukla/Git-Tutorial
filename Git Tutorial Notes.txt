@@ -15,8 +15,8 @@ Create Staging area means selected/all files are on stage.
 
 -->To 'discard' changes in working directory: git restore <fileName>
 
-4. git repo
-Select all files in 'Working Directory'
+4. git commit
+Send all files & changes from staging area to repo.
 
 5. git push
 Push all the files on GitHub or any other chosen service.
