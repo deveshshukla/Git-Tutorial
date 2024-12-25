@@ -1,8 +1,10 @@
 1. [git status]
 To check the status of a repository already git added or not.
 
+
 2. [git init] ---> Current folder is now 'Working Directory'
 If not than this cmd add git on current directory
+
 
 3. [git add]
 Create Staging area means selected/all files are on stage.
@@ -15,14 +17,19 @@ Create Staging area means selected/all files are on stage.
 
 -->To 'discard' changes in working directory: [git restore <fileName>]
 
+
 4. [git commit]
 Send all files & changes from staging area to repo.
 
 -->To see all the commits done so far: [git log]
 -->To see less info log: [git log --oneline]
 
+
 * .gitignore -> use to ignore some file we don't want to track or upload to vcs.
 ---> just mentioned the file name in it and git will not track that file.
+
+* .gitkeep -> git not track empty folders, but to make it track we have to create .gitkeep file on that empty folder to make git track it as well.
+
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
