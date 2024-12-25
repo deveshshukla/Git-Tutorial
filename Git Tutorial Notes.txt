@@ -31,5 +31,15 @@ Send all files & changes from staging area to repo.
 * .gitkeep -> git not track empty folders, but to make it track we have to create .gitkeep file on that empty folder to make git track it as well.
 
 
+i. [git branch]
+--> Show the current 'branch' where HEAD is pointing.
+
+ii. [git branch new-branch]
+--> With this we can create new branch with given name.
+
+iii. [git switch new-branch]
+--> This will switch the branch and make it current 'branch' where HEAD is pointing.
+
+
 5. [git push]
 Push all the files on GitHub or any other chosen service.
