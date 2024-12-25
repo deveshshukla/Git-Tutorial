@@ -21,7 +21,8 @@ Send all files & changes from staging area to repo.
 -->To see all the commits done so far: [git log]
 -->To see less info log: [git log --oneline]
 
-/// 51:10 last
+* .gitignore -> use to ignore some file we don't want to track or upload to vcs.
+---> just mentioned the file name in it and git will not track that file.
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
