@@ -49,6 +49,9 @@ v. [git switch -c new-branch]
 vi. [git merge branch-name]
 --> This will merge the mentioned branch-name to the current branch where we calling it to merge.
 
+vii. [git merge --abort]
+--> This will abort the merge in case of merge-conflict issue.
+
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
