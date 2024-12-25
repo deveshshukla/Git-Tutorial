@@ -40,6 +40,9 @@ ii. [git branch new-branch]
 iii. [git switch new-branch]
 --> This will switch the branch and make it current 'branch' where HEAD is pointing.
 
+iv. [git checkout branch-name]
+--> Switch the branch.
+
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
