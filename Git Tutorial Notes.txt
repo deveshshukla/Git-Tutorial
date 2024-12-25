@@ -52,6 +52,14 @@ vi. [git merge branch-name]
 vii. [git merge --abort]
 --> This will abort the merge in case of merge-conflict issue.
 
+viii. [git branch -m old-branch-name new-branch-name]
+--> Rename branch name.
+
+ix. [git branch -d branch-name]
+--> Delete specified branch.
+
+last---> 1:46:00
+
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
