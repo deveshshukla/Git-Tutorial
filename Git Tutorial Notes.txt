@@ -43,6 +43,9 @@ iii. [git switch new-branch]
 iv. [git checkout branch-name]
 --> Switch the branch.
 
+v. [git switch -c new-branch]
+--> This makes new branch & switched to that branch, If branch already there with same name then it will just switched to that.
+
 
 5. [git push]
 Push all the files on GitHub or any other chosen service.
