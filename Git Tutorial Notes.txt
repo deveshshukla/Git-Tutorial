@@ -67,7 +67,6 @@ ix. [git branch -d branch-name]
 i. git diff -> Its a informative command, which gives only information of difference between 2 things.
 
 --> [git diff --staged] : This cmd shows the diff. between your last commit & your current staging area info. which are not committed at.
-
 --> [git diff branch-name1 branch-name2] ya [branch-name1..branch-name2] both are correct : Gives diff. between 2 branches.
 
 ii. git stash -> It is way to save your changes on a temporary basis. Just want to make changes in a file but don't want to commit them yet.
@@ -81,6 +80,9 @@ ii. git stash -> It is way to save your changes on a temporary basis. Just want 
 --> [git stash pop] : This will apply the stash and also drop from stash list.
 --> [git stash drop] : To drop the stash.
 --> [git stash apply stash@{0} branch-name] : This will apply the stash to a specific branch.
+--> [git stash clear] : clear the stash list.
+
+iii. git rebase 🚫 -> It's a powerful git feature use to change the (BASE of a BRANCH). Its allow you to move a (branch to a new starting point), it used to make cleaner, linear project history.
 
 
 ------------------------------------------------------
