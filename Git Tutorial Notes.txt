@@ -64,7 +64,25 @@ ix. [git branch -d branch-name]
 --> Delete specified branch.
 ------------------------------------------------------
 
+i. git diff -> Its a informative command, which gives only information of difference between 2 things.
+
+--> [git diff --staged] : This cmd shows the diff. between your last commit & your current staging area info. which are not committed at.
+
+--> [git diff branch-name1 branch-name2] ya [branch-name1..branch-name2] both are correct : Gives diff. between 2 branches.
+
+ii. git stash -> It is way to save your changes on a temporary basis. Just want to make changes in a file but don't want to commit them yet.
+
+--> [git stash] : stash/saved work in temporary location.
+--> [git stash save "Work in progress in this feature"] : You can stash with msg also.
+--> [git stash list] : show all the list of saved stashed, like (stack-based).
+
+--> [git stash apply] : top-one stash come to staging area to commit.
+--> [git stash apply stash@{0}] : or call with specific stash num.
+--> [git stash pop] : This will apply the stash and also drop from stash list.
+--> [git stash drop] : To drop the stash.
+--> [git stash apply stash@{0} branch-name] : This will apply the stash to a specific branch.
 
 
+------------------------------------------------------
 5. [git push]
 Push all the files on GitHub or any other chosen service.
