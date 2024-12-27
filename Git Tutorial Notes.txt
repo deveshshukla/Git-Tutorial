@@ -83,6 +83,13 @@ ii. git stash -> It is way to save your changes on a temporary basis. Just want 
 --> [git stash clear] : clear the stash list.
 
 iii. git rebase 🚫 -> It's a powerful git feature use to change the (BASE of a BRANCH). Its allow you to move a (branch to a new starting point), it used to make cleaner, linear project history.
+⚠ Caution: It change's the (PROJECT HISTORY). 
+--> Rebase is always done on a sub-branch not on a main/master branch.
+--> [git rebase branch-name] : rebase the given branch-name to the current branch, means (without giving another commit on a git history) it will copy all the changes present in a given branch-name to the current branch.
+
+iv. [git reflog] -> It's same as log, just give detailed look of commit history.
+
+v. ⚠ [git reset --hard commit-hash] : It will restore the back-state of a file based on given commit-hash. Once backed no way to restore.
 
 
 ------------------------------------------------------
