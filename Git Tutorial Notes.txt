@@ -93,5 +93,14 @@ v. ⚠ [git reset --hard commit-hash] : It will restore the back-state of a file
 
 
 ------------------------------------------------------
-5. [git push]
-Push all the files on GitHub or any other chosen service.
+5. git push -> Push all the files on GitHub or any other chosen service.
+
+⚠ Caution: Every System use single SSH-KEY so before generating new key first look for existing one, in your GitHub profile.
+
+For new SSH-Key setup: Refer GitHub doc's (https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+1. Add origin: [git remote add origin webURL] --> code > HTTPS > webURL
+2. Check connection: [git remote -v] shows both fetch & push msg.
+
+
+
