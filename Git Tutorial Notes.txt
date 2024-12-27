@@ -102,5 +102,11 @@ For new SSH-Key setup: Refer GitHub doc's (https://docs.github.com/en/authentica
 1. Add origin: [git remote add origin webURL] --> code > HTTPS > webURL
 2. Check connection: [git remote -v] shows both fetch & push msg.
 
+i. First time push: [git push -u origin main]
+ii. Second time onwards push directly: [git push]
+
+⚠ Caution: If Read.me file is added on time of creating repository then it will throw conflict-error at starting. 
+--> To resolve that use: [git pull --rebase origin type-branch-name(main or master)] -> rebase to solve issue.
+
 
 
