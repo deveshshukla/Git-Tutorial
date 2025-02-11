@@ -99,7 +99,12 @@ v. ⚠ [git reset --hard commit-hash] : It will restore the back-state of a file
 
 For new SSH-Key setup: Refer GitHub doc's (https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-1. Add origin: [git remote add origin webURL] --> code > HTTPS > webURL
+1. Add origin: [git remote add origin repoURL] --> copy link from [code] sec https link.
+
+---> To Fix Git ‘remote: Repository not found’ Error?
+- Step-1: Verify the Repository URL For example: [https://github.com/username/repository.git]
+- Step-2: If the URL is incorrect, update it using: [git remote set-url origin repoURL]
+
 2. Check connection: [git remote -v] shows both fetch & push msg.
 
 i. First time push: [git push -u origin main]
@@ -107,6 +112,10 @@ ii. Second time onwards push directly: [git push]
 
 ⚠ Caution: If Read.me file is added on time of creating repository then it will throw conflict-error at starting. 
 --> To resolve that use: [git pull --rebase origin type-branch-name(main or master)] -> rebase to solve issue.
+------------------------------------------------------
+
+Detailed gfg article for issue of ‘remote: Repository not found’ Error: 
+https://www.geeksforgeeks.org/how-to-fix-git-remote-repository-not-found-error/
 
 
 
